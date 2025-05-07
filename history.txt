@@ -1,0 +1,56 @@
+    1  history -w
+    2  history -w
+    3  nano myfirstbashscript.sh
+    4  chmod +x myfirstbashscript.sh
+    5  ./myfirstbashscript.sh
+    6  export_file myfirstbashscript.sh
+    7  cp /tmp/file.txt /c/Users\krist\OneDrive\Desktop/file.txt
+    8  cp /tmp/file.txt /c/Users\krist\OneDrive\Desktop/myfirstbashscript.sh
+    9  cp myfirstbashscript.sh myfirstbashscript.txt
+   10  cp myfirstbashscript.sh myfirstbashscript.txt
+   11  cp myfirstbashscript.txt ~/Desktop/
+   12  cp myfirstbashscript.sh myfirstbashscript.txt
+   13  cat ~/myfirstbashscript.sh >> /tmp/file.txt
+   14  cp /tmp/file.txt /c/Users\krist\OneDrive\Desktop/myfirstbashscript.sh
+   15  mkdir git-branch
+   16  cd git-branch
+   17  git init
+   18  git remote add origin https://github.com/<KristinaSchmidt>/git-branch.git
+   19  git remote add origin https://github.com/KristinaSchmidt/git-branch.git
+   20  git checkout -b gitignore
+   21  curl -o .gitignore https://raw.githubusercontent.com/aliaskov/bashscripts/master/.gitignore
+   22  git add .gitignore
+   23  git commit -m "Add .gitignore file"
+   24  git push -u origin gitignore
+   25  ls -la
+   26  git status
+   27  git checkout main
+   28  cd /c/User/krist/NewOrdner
+   29  cd /c/User/krist/
+   30  cd /c/User/krist
+   31  cd ~/Documents
+   32  mkdir mein-projekt
+   33  cd mein-projekt
+   34  git init
+   35  echo "# Mein erstes Repo" > README.md
+   36  git add README.md
+   37  git commit -m "Erster Commit"
+   38  git add *.css
+   39  git commit --amend -m "Новый комментарий: добавлены CSS-файлы"
+   40  git status
+   41  git clone https://github.com/KristinaSchmidt/Linux-HW12.git
+   42  cd Linux-HW12
+   43  touch .gitignore
+   44  nano .gitignore
+   45  git checkout -b feature
+   46  echo "# HW 12" >> README.md
+   47  echo echo "2025-05-07" >> .gitignore
+   48  git add .
+   49  git commit -m "Добавлены README и .gitignore"
+   50  git push -u origin feature
+   51  git commit --amend -m "Добавлены README и .gitignore (amend)"
+   52  git push --force
+   53  git checkout main
+   54  git merge feature
+   55  git push
+   56  history > history.txt
